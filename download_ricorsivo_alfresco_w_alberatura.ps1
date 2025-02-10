@@ -82,7 +82,7 @@ function Compress-Folder {
 }
 
 # Inizio il download dalla cartella principale
-$rootNodeId = "2b4e5461-df0d-4b25-863b-37e1110d1ab7"  # NodeId della cartella principale
+$rootNodeId = "node_id_folder"  # NodeId della cartella principale
 $rootPath = "\download\path"  # Modifica il percorso di destinazione
 Download-FilesFromNode -nodeId $rootNodeId -currentPath $rootPath
 
